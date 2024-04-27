@@ -186,3 +186,153 @@ VALUES
     ('CT05_009', N'Hoàng Văn T', '1985-11-30', N'0369852147', N'222 Đường WXY, Cần Thơ', 9000000, N'CT05'),
     ('CT05_010', N'Lê Thị U', '1984-04-12', N'0796321458', N'333 Đường ZAB, Cần Thơ', 11000000, N'CT05');
 
+
+
+-- Da Nang - Warehouse DN01
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('DN01_001', N'Nguyễn Văn A', '1990-01-01', N'0123456789', N'123 Đường ABC, Đà Nẵng', 10000000, N'DN01'),
+    ('DN01_002', N'Trần Thị B', '1992-05-15', N'0987654321', N'456 Đường XYZ, Đà Nẵng', 9500000, N'DN01'),
+    ('DN01_003', N'Lê Văn C', '1988-03-25', N'0369852147', N'789 Đường DEF, Đà Nẵng', 10500000, N'DN01'),
+    ('DN01_004', N'Phạm Thị D', '1989-12-10', N'0586321479', N'101 Đường GHI, Đà Nẵng', 9000000, N'DN01'),
+    ('DN01_005', N'Hoàng Văn E', '1987-07-10', N'0796321458', N'234 Đường KLM, Đà Nẵng', 11000000, N'DN01'),
+    ('DN01_006', N'Trịnh Thị F', '1991-08-20', N'0147852369', N'567 Đường NOP, Đà Nẵng', 10000000, N'DN01'),
+    ('DN01_007', N'Đặng Văn G', '1993-12-05', N'0321546879', N'890 Đường QRS, Đà Nẵng', 9500000, N'DN01'),
+    ('DN01_008', N'Vũ Thị H', '1986-09-05', N'0147852369', N'111 Đường TUV, Đà Nẵng', 10500000, N'DN01'),
+    ('DN01_009', N'Hoàng Văn I', '1985-11-30', N'0369852147', N'222 Đường WXY, Đà Nẵng', 9000000, N'DN01'),
+    ('DN01_010', N'Lê Thị K', '1984-04-12', N'0796321458', N'333 Đường ZAB, Đà Nẵng', 11000000, N'DN01'),
+    ('DN01_011', N'Nguyễn Văn L', '1990-01-01', N'0123456789', N'123 Đường ABC, Đà Nẵng', 10000000, N'DN01'),
+    ('DN01_012', N'Trần Thị M', '1992-05-15', N'0987654321', N'456 Đường XYZ, Đà Nẵng', 9500000, N'DN01'),
+    ('DN01_013', N'Lê Văn N', '1988-03-25', N'0369852147', N'789 Đường DEF, Đà Nẵng', 10500000, N'DN01'),
+    ('DN01_014', N'Phạm Thị O', '1989-12-10', N'0586321479', N'101 Đường GHI, Đà Nẵng', 9000000, N'DN01'),
+    ('DN01_015', N'Hoàng Văn P', '1987-07-10', N'0796321458', N'234 Đường KLM, Đà Nẵng', 11000000, N'DN01');
+
+-- Da Nang - Warehouse DN02
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('DN02_001', N'Nguyễn Văn A', '1990-01-01', N'0123456789', N'123 Đường ABC, Đà Nẵng', 10000000, N'DN02'),
+    ('DN02_002', N'Trần Thị B', '1992-05-15', N'0987654321', N'456 Đường XYZ, Đà Nẵng', 9500000, N'DN02'),
+    ('DN02_003', N'Lê Văn C', '1988-03-25', N'0369852147', N'789 Đường DEF, Đà Nẵng', 10500000, N'DN02'),
+    ('DN02_004', N'Phạm Thị D', '1989-12-10', N'0586321479', N'101 Đường GHI, Đà Nẵng', 9000000, N'DN02'),
+    ('DN02_005', N'Hoàng Văn E', '1987-07-10', N'0796321458', N'234 Đường KLM, Đà Nẵng', 11000000, N'DN02'),
+    ('DN02_006', N'Trịnh Thị F', '1991-08-20', N'0147852369', N'567 Đường NOP, Đà Nẵng', 10000000, N'DN02'),
+    ('DN02_007', N'Đặng Văn G', '1993-12-05', N'0321546879', N'890 Đường QRS, Đà Nẵng', 9500000, N'DN02'),
+    ('DN02_008', N'Vũ Thị H', '1986-09-05', N'0147852369', N'111 Đường TUV, Đà Nẵng', 10500000, N'DN02'),
+    ('DN02_009', N'Hoàng Văn I', '1985-11-30', N'0369852147', N'222 Đường WXY, Đà Nẵng', 9000000, N'DN02'),
+    ('DN02_010', N'Lê Thị K', '1984-04-12', N'0796321458', N'333 Đường ZAB, Đà Nẵng', 11000000, N'DN02'),
+    ('DN02_011', N'Nguyễn Văn L', '1990-01-01', N'0123456789', N'123 Đường ABC, Đà Nẵng', 10000000, N'DN02'),
+    ('DN02_012', N'Trần Thị M', '1992-05-15', N'0987654321', N'456 Đường XYZ, Đà Nẵng', 9500000, N'DN02'),
+    ('DN02_013', N'Lê Văn N', '1988-03-25', N'0369852147', N'789 Đường DEF, Đà Nẵng', 10500000, N'DN02'),
+    ('DN02_014', N'Phạm Thị O', '1989-12-10', N'0586321479', N'101 Đường GHI, Đà Nẵng', 9000000, N'DN02'),
+    ('DN02_015', N'Hoàng Văn P', '1987-07-10', N'0796321458', N'234 Đường KLM, Đà Nẵng', 11000000, N'DN02');
+
+-- Da Nang - Warehouse DN03
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('DN03_001', N'Nguyễn Văn A', '1990-01-01', N'0123456789', N'123 Đường ABC, Đà Nẵng', 10000000, N'DN03'),
+    ('DN03_002', N'Trần Thị B', '1992-05-15', N'0987654321', N'456 Đường XYZ, Đà Nẵng', 9500000, N'DN03'),
+    ('DN03_003', N'Lê Văn C', '1988-03-25', N'0369852147', N'789 Đường DEF, Đà Nẵng', 10500000, N'DN03'),
+    ('DN03_004', N'Phạm Thị D', '1989-12-10', N'0586321479', N'101 Đường GHI, Đà Nẵng', 9000000, N'DN03'),
+    ('DN03_005', N'Hoàng Văn E', '1987-07-10', N'0796321458', N'234 Đường KLM, Đà Nẵng', 11000000, N'DN03'),
+    ('DN03_006', N'Trịnh Thị F', '1991-08-20', N'0147852369', N'567 Đường NOP, Đà Nẵng', 10000000, N'DN03'),
+    ('DN03_007', N'Đặng Văn G', '1993-12-05', N'0321546879', N'890 Đường QRS, Đà Nẵng', 9500000, N'DN03'),
+    ('DN03_008', N'Vũ Thị H', '1986-09-05', N'0147852369', N'111 Đường TUV, Đà Nẵng', 10500000, N'DN03'),
+    ('DN03_009', N'Hoàng Văn I', '1985-11-30', N'0369852147', N'222 Đường WXY, Đà Nẵng', 9000000, N'DN03'),
+    ('DN03_010', N'Lê Thị K', '1984-04-12', N'0796321458', N'333 Đường ZAB, Đà Nẵng', 11000000, N'DN03'),
+    ('DN03_011', N'Nguyễn Văn L', '1990-01-01', N'0123456789', N'123 Đường ABC, Đà Nẵng', 10000000, N'DN03'),
+    ('DN03_012', N'Trần Thị M', '1992-05-15', N'0987654321', N'456 Đường XYZ, Đà Nẵng', 9500000, N'DN03'),
+    ('DN03_013', N'Lê Văn N', '1988-03-25', N'0369852147', N'789 Đường DEF, Đà Nẵng', 10500000, N'DN03'),
+    ('DN03_014', N'Phạm Thị O', '1989-12-10', N'0586321479', N'101 Đường GHI, Đà Nẵng', 9000000, N'DN03'),
+    ('DN03_015', N'Hoàng Văn P', '1987-07-10', N'0796321458', N'234 Đường KLM, Đà Nẵng', 11000000, N'DN03');
+
+-- Da Nang - Warehouse DN04
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('DN04_001', N'Nguyễn Văn A', '1990-01-01', N'0123456789', N'123 Đường ABC, Đà Nẵng', 10000000, N'DN04'),
+    ('DN04_002', N'Trần Thị B', '1992-05-15', N'0987654321', N'456 Đường XYZ, Đà Nẵng', 9500000, N'DN04'),
+    ('DN04_003', N'Lê Văn C', '1988-03-25', N'0369852147', N'789 Đường DEF, Đà Nẵng', 10500000, N'DN04'),
+    ('DN04_004', N'Phạm Thị D', '1989-12-10', N'0586321479', N'101 Đường GHI, Đà Nẵng', 9000000, N'DN04'),
+    ('DN04_005', N'Hoàng Văn E', '1987-07-10', N'0796321458', N'234 Đường KLM, Đà Nẵng', 11000000, N'DN04'),
+    ('DN04_006', N'Trịnh Thị F', '1991-08-20', N'0147852369', N'567 Đường NOP, Đà Nẵng', 10000000, N'DN04'),
+    ('DN04_007', N'Đặng Văn G', '1993-12-05', N'0321546879', N'890 Đường QRS, Đà Nẵng', 9500000, N'DN04'),
+    ('DN04_008', N'Vũ Thị H', '1986-09-05', N'0147852369', N'111 Đường TUV, Đà Nẵng', 10500000, N'DN04'),
+    ('DN04_009', N'Hoàng Văn I', '1985-11-30', N'0369852147', N'222 Đường WXY, Đà Nẵng', 9000000, N'DN04'),
+    ('DN04_010', N'Lê Thị K', '1984-04-12', N'0796321458', N'333 Đường ZAB, Đà Nẵng', 11000000, N'DN04'),
+    ('DN04_011', N'Nguyễn Văn L', '1990-01-01', N'0123456789', N'123 Đường ABC, Đà Nẵng', 10000000, N'DN04'),
+    ('DN04_012', N'Trần Thị M', '1992-05-15', N'0987654321', N'456 Đường XYZ, Đà Nẵng', 9500000, N'DN04'),
+    ('DN04_013', N'Lê Văn N', '1988-03-25', N'0369852147', N'789 Đường DEF, Đà Nẵng', 10500000, N'DN04'),
+    ('DN04_014', N'Phạm Thị O', '1989-12-10', N'0586321479', N'101 Đường GHI, Đà Nẵng', 9000000, N'DN04'),
+    ('DN04_015', N'Hoàng Văn P', '1987-07-10', N'0796321458', N'234 Đường KLM, Đà Nẵng', 11000000, N'DN04');
+
+-- Da Nang - Warehouse DN05
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('DN05_001', N'Nguyễn Văn A', '1990-01-01', N'0123456789', N'123 Đường ABC, Đà Nẵng', 10000000, N'DN05'),
+    ('DN05_002', N'Trần Thị B', '1992-05-15', N'0987654321', N'456 Đường XYZ, Đà Nẵng', 9500000, N'DN05'),
+    ('DN05_003', N'Lê Văn C', '1988-03-25', N'0369852147', N'789 Đường DEF, Đà Nẵng', 10500000, N'DN05'),
+    ('DN05_004', N'Phạm Thị D', '1989-12-10', N'0586321479', N'101 Đường GHI, Đà Nẵng', 9000000, N'DN05'),
+    ('DN05_005', N'Hoàng Văn E', '1987-07-10', N'0796321458', N'234 Đường KLM, Đà Nẵng', 11000000, N'DN05'),
+    ('DN05_006', N'Trịnh Thị F', '1991-08-20', N'0147852369', N'567 Đường NOP, Đà Nẵng', 10000000, N'DN05'),
+    ('DN05_007', N'Đặng Văn G', '1993-12-05', N'0321546879', N'890 Đường QRS, Đà Nẵng', 9500000, N'DN05'),
+    ('DN05_008', N'Vũ Thị H', '1986-09-05', N'0147852369', N'111 Đường TUV, Đà Nẵng', 10500000, N'DN05'),
+    ('DN05_009', N'Hoàng Văn I', '1985-11-30', N'0369852147', N'222 Đường WXY, Đà Nẵng', 9000000, N'DN05'),
+    ('DN05_010', N'Lê Thị K', '1984-04-12', N'0796321458', N'333 Đường ZAB, Đà Nẵng', 11000000, N'DN05'),
+    ('DN05_011', N'Nguyễn Văn L', '1990-01-01', N'0123456789', N'123 Đường ABC, Đà Nẵng', 10000000, N'DN05'),
+    ('DN05_012', N'Trần Thị M', '1992-05-15', N'0987654321', N'456 Đường XYZ, Đà Nẵng', 9500000, N'DN05'),
+    ('DN05_013', N'Lê Văn N', '1988-03-25', N'0369852147', N'789 Đường DEF, Đà Nẵng', 10500000, N'DN05'),
+    ('DN05_014', N'Phạm Thị O', '1989-12-10', N'0586321479', N'101 Đường GHI, Đà Nẵng', 9000000, N'DN05'),
+    ('DN05_015', N'Hoàng Văn P', '1987-07-10', N'0796321458', N'234 Đường KLM, Đà Nẵng', 11000000, N'DN05');
+
+
+
+
+
+-- Hà giang - Warehouse HG01
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('HG01_001', N'Nguyễn Văn A', '1990-01-01', N'0123456789', N'123 Đường ABC, Hà Giang', 10000000, N'HG01'),
+    ('HG01_002', N'Trần Thị B', '1992-05-15', N'0987654321', N'456 Đường XYZ, Hà Giang', 9500000, N'HG01'),
+    ('HG01_003', N'Lê Văn C', '1988-03-25', N'0369852147', N'789 Đường DEF, Hà Giang', 10500000, N'HG01'),
+    ('HG01_004', N'Phạm Thị D', '1989-12-10', N'0586321479', N'101 Đường GHI, Hà Giang', 9000000, N'HG01'),
+    ('HG01_005', N'Hoàng Văn E', '1987-07-10', N'0796321458', N'234 Đường KLM, Hà Giang', 11000000, N'HG01');
+
+-- Hà Giang - Warehouse HG02
+-- Randomly generate 5 to 15 employees for HG02
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('HG02_001', N'Nguyễn Văn F', '1990-01-01', N'0123456789', N'123 Đường ABC, Hà Giang', 10000000, N'HG02'),
+    ('HG02_002', N'Trần Thị G', '1992-05-15', N'0987654321', N'456 Đường XYZ, Hà Giang', 9500000, N'HG02'),
+    ('HG02_003', N'Lê Văn H', '1988-03-25', N'0369852147', N'789 Đường DEF, Hà Giang', 10500000, N'HG02'),
+    ('HG02_004', N'Phạm Thị I', '1989-12-10', N'0586321479', N'101 Đường GHI, Hà Giang', 9000000, N'HG02'),
+    ('HG02_005', N'Hoàng Văn J', '1987-07-10', N'0796321458', N'234 Đường KLM, Hà Giang', 11000000, N'HG02');
+
+-- Hà Giang - Warehouse HG03
+-- Randomly generate 5 to 15 employees for HG03
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('HG03_001', N'Nguyễn Văn K', '1990-01-01', N'0123456789', N'123 Đường ABC, Hà Giang', 10000000, N'HG03'),
+    ('HG03_002', N'Trần Thị L', '1992-05-15', N'0987654321', N'456 Đường XYZ, Hà Giang', 9500000, N'HG03'),
+    ('HG03_003', N'Lê Văn M', '1988-03-25', N'0369852147', N'789 Đường DEF, Hà Giang', 10500000, N'HG03'),
+    ('HG03_004', N'Phạm Thị N', '1989-12-10', N'0586321479', N'101 Đường GHI, Hà Giang', 9000000, N'HG03'),
+    ('HG03_005', N'Hoàng Văn O', '1987-07-10', N'0796321458', N'234 Đường KLM, Hà Giang', 11000000, N'HG03');
+
+-- Hà Giang - Warehouse HG04
+-- Randomly generate 5 to 15 employees for HG04
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('HG04_001', N'Nguyễn Văn P', '1990-01-01', N'0123456789', N'123 Đường ABC, Hà Giang', 10000000, N'HG04'),
+    ('HG04_002', N'Trần Thị Q', '1992-05-15', N'0987654321', N'456 Đường XYZ, Hà Giang', 9500000, N'HG04'),
+    ('HG04_003', N'Lê Văn R', '1988-03-25', N'0369852147', N'789 Đường DEF, Hà Giang', 10500000, N'HG04'),
+    ('HG04_004', N'Phạm Thị S', '1989-12-10', N'0586321479', N'101 Đường GHI, Hà Giang', 9000000, N'HG04'),
+    ('HG04_005', N'Hoàng Văn T', '1987-07-10', N'0796321458', N'234 Đường KLM, Hà Giang', 11000000, N'HG04');
+
+-- Hà Giang - Warehouse HG05
+-- Randomly generate 5 to 15 employees for HG05
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('HG05_001', N'Nguyễn Văn U', '1990-01-01', N'0123456789', N'123 Đường ABC, Hà Giang', 10000000, N'HG05'),
+    ('HG05_002', N'Trần Thị V', '1992-05-15', N'0987654321', N'456 Đường XYZ, Hà Giang', 9500000, N'HG05'),
+    ('HG05_003', N'Lê Văn X', '1988-03-25', N'0369852147', N'789 Đường DEF, Hà Giang', 10500000, N'HG05'),
+    ('HG05_004', N'Phạm Thị Y', '1989-12-10', N'0586321479', N'101 Đường GHI, Hà Giang', 9000000, N'HG05'),
+    ('HG05_005', N'Hoàng Văn Z', '1987-07-10', N'0796321458', N'234 Đường KLM, Hà Giang', 11000000, N'HG05');
+
