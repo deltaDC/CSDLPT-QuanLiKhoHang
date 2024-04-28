@@ -336,3 +336,262 @@ VALUES
     ('HG05_004', N'Phạm Thị Y', '1989-12-10', N'0586321479', N'101 Đường GHI, Hà Giang', 9000000, N'HG05'),
     ('HG05_005', N'Hoàng Văn Z', '1987-07-10', N'0796321458', N'234 Đường KLM, Hà Giang', 11000000, N'HG05');
 
+
+
+-- Hải Phòng - Warehouse HP01
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('HP01_001', N'Nguyễn Văn A', '1990-01-01', N'0123456789', N'123 Đường ABC, Hải Phòng', 10000000, N'HP01'),
+    ('HP01_002', N'Trần Thị B', '1992-05-15', N'0987654321', N'456 Đường XYZ, Hải Phòng', 9500000, N'HP01'),
+    ('HP01_003', N'Lê Văn C', '1988-03-25', N'0369852147', N'789 Đường DEF, Hải Phòng', 10500000, N'HP01'),
+    ('HP01_004', N'Phạm Thị D', '1989-12-10', N'0586321479', N'101 Đường GHI, Hải Phòng', 9000000, N'HP01'),
+    ('HP01_005', N'Hoàng Văn E', '1987-07-10', N'0796321458', N'234 Đường KLM, Hải Phòng', 11000000, N'HP01');
+
+-- Hải Phòng - Warehouse HP02
+-- Randomly generate 5 to 15 employees for HP02
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('HP02_001', N'Nguyễn Văn F', '1990-01-01', N'0123456789', N'123 Đường ABC, Hải Phòng', 10000000, N'HP02'),
+    ('HP02_002', N'Trần Thị G', '1992-05-15', N'0987654321', N'456 Đường XYZ, Hải Phòng', 9500000, N'HP02'),
+    ('HP02_003', N'Lê Văn H', '1988-03-25', N'0369852147', N'789 Đường DEF, Hải Phòng', 10500000, N'HP02'),
+    ('HP02_004', N'Phạm Thị I', '1989-12-10', N'0586321479', N'101 Đường GHI, Hải Phòng', 9000000, N'HP02'),
+    ('HP02_005', N'Hoàng Văn J', '1987-07-10', N'0796321458', N'234 Đường KLM, Hải Phòng', 11000000, N'HP02');
+
+-- Hải Phòng - Warehouse HP03
+-- Randomly generate 5 to 15 employees for HP03
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('HP03_001', N'Nguyễn Văn K', '1990-01-01', N'0123456789', N'123 Đường ABC, Hải Phòng', 10000000, N'HP03'),
+    ('HP03_002', N'Trần Thị L', '1992-05-15', N'0987654321', N'456 Đường XYZ, Hải Phòng', 9500000, N'HP03'),
+    ('HP03_003', N'Lê Văn M', '1988-03-25', N'0369852147', N'789 Đường DEF, Hải Phòng', 10500000, N'HP03'),
+    ('HP03_004', N'Phạm Thị N', '1989-12-10', N'0586321479', N'101 Đường GHI, Hải Phòng', 9000000, N'HP03'),
+    ('HP03_005', N'Hoàng Văn O', '1987-07-10', N'0796321458', N'234 Đường KLM, Hải Phòng', 11000000, N'HP03');
+
+-- Hải Phòng - Warehouse HP04
+-- Randomly generate 5 to 15 employees for HP04
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('HP04_001', N'Nguyễn Văn P', '1990-01-01', N'0123456789', N'123 Đường ABC, Hải Phòng', 10000000, N'HP04'),
+    ('HP04_002', N'Trần Thị Q', '1992-05-15', N'0987654321', N'456 Đường XYZ, Hải Phòng', 9500000, N'HP04'),
+    ('HP04_003', N'Lê Văn R', '1988-03-25', N'0369852147', N'789 Đường DEF, Hải Phòng', 10500000, N'HP04'),
+    ('HP04_004', N'Phạm Thị S', '1989-12-10', N'0586321479', N'101 Đường GHI, Hải Phòng', 9000000, N'HP04'),
+    ('HP04_005', N'Hoàng Văn T', '1987-07-10', N'0796321458', N'234 Đường KLM, Hải Phòng', 11000000, N'HP04');
+
+-- Hải Phòng - Warehouse HP05
+-- Randomly generate 5 to 15 employees for HP05
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('HP05_001', N'Nguyễn Văn U', '1990-01-01', N'0123456789', N'123 Đường ABC, Hải Phòng', 10000000, N'HP05'),
+    ('HP05_002', N'Trần Thị V', '1992-05-15', N'0987654321', N'456 Đường XYZ, Hải Phòng', 9500000, N'HP05'),
+    ('HP05_003', N'Lê Văn X', '1988-03-25', N'0369852147', N'789 Đường DEF, Hải Phòng', 10500000, N'HP05'),
+    ('HP05_004', N'Phạm Thị Y', '1989-12-10', N'0586321479', N'101 Đường GHI, Hải Phòng', 9000000, N'HP05'),
+    ('HP05_005', N'Hoàng Văn Z', '1987-07-10', N'0796321458', N'234 Đường KLM, Hải Phòng', 11000000, N'HP05');
+
+
+
+
+
+-- Lai Châu - Warehouse LC01
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('LC01_001', N'Nguyễn Văn A', '1990-01-01', N'0123456789', N'123 Đường ABC, Lai Châu', 10000000, N'LC01'),
+    ('LC01_002', N'Trần Thị B', '1992-05-15', N'0987654321', N'456 Đường XYZ, Lai Châu', 9500000, N'LC01'),
+    ('LC01_003', N'Lê Văn C', '1988-03-25', N'0369852147', N'789 Đường DEF, Lai Châu', 10500000, N'LC01'),
+    ('LC01_004', N'Phạm Thị D', '1989-12-10', N'0586321479', N'101 Đường GHI, Lai Châu', 9000000, N'LC01'),
+    ('LC01_005', N'Hoàng Văn E', '1987-07-10', N'0796321458', N'234 Đường KLM, Lai Châu', 11000000, N'LC01');
+
+-- Lai Châu - Warehouse LC02
+-- Randomly generate 5 to 15 employees for LC02
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('LC02_001', N'Nguyễn Văn F', '1990-01-01', N'0123456789', N'123 Đường ABC, Lai Châu', 10000000, N'LC02'),
+    ('LC02_002', N'Trần Thị G', '1992-05-15', N'0987654321', N'456 Đường XYZ, Lai Châu', 9500000, N'LC02'),
+    ('LC02_003', N'Lê Văn H', '1988-03-25', N'0369852147', N'789 Đường DEF, Lai Châu', 10500000, N'LC02'),
+    ('LC02_004', N'Phạm Thị I', '1989-12-10', N'0586321479', N'101 Đường GHI, Lai Châu', 9000000, N'LC02'),
+    ('LC02_005', N'Hoàng Văn J', '1987-07-10', N'0796321458', N'234 Đường KLM, Lai Châu', 11000000, N'LC02');
+
+-- Lai Châu - Warehouse LC03
+-- Randomly generate 5 to 15 employees for LC03
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('LC03_001', N'Nguyễn Văn K', '1990-01-01', N'0123456789', N'123 Đường ABC, Lai Châu', 10000000, N'LC03'),
+    ('LC03_002', N'Trần Thị L', '1992-05-15', N'0987654321', N'456 Đường XYZ, Lai Châu', 9500000, N'LC03'),
+    ('LC03_003', N'Lê Văn M', '1988-03-25', N'0369852147', N'789 Đường DEF, Lai Châu', 10500000, N'LC03'),
+    ('LC03_004', N'Phạm Thị N', '1989-12-10', N'0586321479', N'101 Đường GHI, Lai Châu', 9000000, N'LC03'),
+    ('LC03_005', N'Hoàng Văn O', '1987-07-10', N'0796321458', N'234 Đường KLM, Lai Châu', 11000000, N'LC03');
+
+-- Lai Châu - Warehouse LC04
+-- Randomly generate 5 to 15 employees for LC04
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('LC04_001', N'Nguyễn Văn P', '1990-01-01', N'0123456789', N'123 Đường ABC, Lai Châu', 10000000, N'LC04'),
+    ('LC04_002', N'Trần Thị Q', '1992-05-15', N'0987654321', N'456 Đường XYZ, Lai Châu', 9500000, N'LC04'),
+    ('LC04_003', N'Lê Văn R', '1988-03-25', N'0369852147', N'789 Đường DEF, Lai Châu', 10500000, N'LC04'),
+    ('LC04_004', N'Phạm Thị S', '1989-12-10', N'0586321479', N'101 Đường GHI, Lai Châu', 9000000, N'LC04'),
+    ('LC04_005', N'Hoàng Văn T', '1987-07-10', N'0796321458', N'234 Đường KLM, Lai Châu', 11000000, N'LC04');
+
+-- Lai Châu - Warehouse LC05
+-- Randomly generate 5 to 15 employees for LC05
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('LC05_001', N'Nguyễn Văn U', '1990-01-01', N'0123456789', N'123 Đường ABC, Lai Châu', 10000000, N'LC05'),
+    ('LC05_002', N'Trần Thị V', '1992-05-15', N'0987654321', N'456 Đường XYZ, Lai Châu', 9500000, N'LC05'),
+    ('LC05_003', N'Lê Văn X', '1988-03-25', N'0369852147', N'789 Đường DEF, Lai Châu', 10500000, N'LC05'),
+    ('LC05_004', N'Phạm Thị Y', '1989-12-10', N'0586321479', N'101 Đường GHI, Lai Châu', 9000000, N'LC05'),
+    ('LC05_005', N'Hoàng Văn Z', '1987-07-10', N'0796321458', N'234 Đường KLM, Lai Châu', 11000000, N'LC05');
+
+
+
+
+-- Nam Định - Warehouse ND01
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('ND01_001', N'Nguyễn Văn Anh', '1990-01-01', N'0123456789', N'123 Đường ABC, Nam Định', 10000000, N'ND01'),
+    ('ND01_002', N'Trần Thị Bảo', '1992-05-15', N'0987654321', N'456 Đường XYZ, Nam Định', 9500000, N'ND01'),
+    ('ND01_003', N'Lê Minh Chiến', '1988-03-25', N'0369852147', N'789 Đường DEF, Nam Định', 10500000, N'ND01'),
+    ('ND01_004', N'Phạm Thị Dung', '1989-12-10', N'0586321479', N'101 Đường GHI, Nam Định', 9000000, N'ND01'),
+    ('ND01_005', N'Hoàng Văn Duy', '1987-07-10', N'0796321458', N'234 Đường KLM, Nam Định', 11000000, N'ND01');
+
+-- Nam Định - Warehouse ND02
+-- Randomly generate 5 to 15 employees for ND02
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('ND02_001', N'Nguyễn Thị Lan', '1991-02-02', N'0123456789', N'123 Đường ABC, Nam Định', 10000000, N'ND02'),
+    ('ND02_002', N'Trần Văn Đức', '1993-06-16', N'0987654321', N'456 Đường XYZ, Nam Định', 9500000, N'ND02'),
+    ('ND02_003', N'Lê Thị Hà', '1989-04-26', N'0369852147', N'789 Đường DEF, Nam Định', 10500000, N'ND02'),
+    ('ND02_004', N'Phạm Văn Hiếu', '1990-11-11', N'0586321479', N'101 Đường GHI, Nam Định', 9000000, N'ND02'),
+    ('ND02_005', N'Hoàng Thị Mai', '1988-08-15', N'0796321458', N'234 Đường KLM, Nam Định', 11000000, N'ND02');
+
+-- Nam Định - Warehouse ND03
+-- Randomly generate 5 to 15 employees for ND03
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('ND03_001', N'Nguyễn Văn Phong', '1990-01-01', N'0123456789', N'123 Đường ABC, Nam Định', 10000000, N'ND03'),
+    ('ND03_002', N'Trần Thị Thu', '1992-05-15', N'0987654321', N'456 Đường XYZ, Nam Định', 9500000, N'ND03'),
+    ('ND03_003', N'Lê Văn Dũng', '1988-03-25', N'0369852147', N'789 Đường DEF, Nam Định', 10500000, N'ND03'),
+    ('ND03_004', N'Phạm Thị Hương', '1989-12-10', N'0586321479', N'101 Đường GHI, Nam Định', 9000000, N'ND03'),
+    ('ND03_005', N'Hoàng Văn Tùng', '1987-07-10', N'0796321458', N'234 Đường KLM, Nam Định', 11000000, N'ND03');
+
+-- Nam Định - Warehouse ND04
+-- Randomly generate 5 to 15 employees for ND04
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('ND04_001', N'Nguyễn Thị Trang', '1990-01-01', N'0123456789', N'123 Đường ABC, Nam Định', 10000000, N'ND04'),
+    ('ND04_002', N'Trần Văn Thanh', '1992-05-15', N'0987654321', N'456 Đường XYZ, Nam Định', 9500000, N'ND04'),
+    ('ND04_003', N'Lê Thị Ngọc', '1988-03-25', N'0369852147', N'789 Đường DEF, Nam Định', 10500000, N'ND04'),
+    ('ND04_004', N'Phạm Văn Thịnh', '1989-12-10', N'0586321479', N'101 Đường GHI, Nam Định', 9000000, N'ND04'),
+    ('ND04_005', N'Hoàng Thị Ngân', '1987-07-10', N'0796321458', N'234 Đường KLM, Nam Định', 11000000, N'ND04');
+
+-- Nam Định - Warehouse ND05
+-- Randomly generate 5 to 15 employees for ND05
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('ND05_001', N'Nguyễn Văn Đạt', '1990-01-01', N'0123456789', N'123 Đường ABC, Nam Định', 10000000, N'ND05'),
+    ('ND05_002', N'Trần Thị Mai', '1992-05-15', N'0987654321', N'456 Đường XYZ, Nam Định', 9500000, N'ND05'),
+    ('ND05_003', N'Lê Văn Phú', '1988-03-25', N'0369852147', N'789 Đường DEF, Nam Định', 10500000, N'ND05'),
+    ('ND05_004', N'Phạm Thị Hà', '1989-12-10', N'0586321479', N'101 Đường GHI, Nam Định', 9000000, N'ND05'),
+    ('ND05_005', N'Hoàng Văn Hùng', '1987-07-10', N'0796321458', N'234 Đường KLM, Nam Định', 11000000, N'ND05');
+
+
+
+-- Cao Bằng - Warehouse CB01
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('CB01_001', N'Nguyễn Văn An', '1990-01-01', N'0123456789', N'123 Đường ABC, Cao Bằng', 10000000, N'CB01'),
+    ('CB01_002', N'Trần Thị Bình', '1992-05-15', N'0987654321', N'456 Đường XYZ, Cao Bằng', 9500000, N'CB01'),
+    ('CB01_003', N'Lê Văn Cường', '1988-03-25', N'0369852147', N'789 Đường DEF, Cao Bằng', 10500000, N'CB01'),
+    ('CB01_004', N'Phạm Thị Duyên', '1989-12-10', N'0586321479', N'101 Đường GHI, Cao Bằng', 9000000, N'CB01'),
+    ('CB01_005', N'Hoàng Văn Đức', '1987-07-10', N'0796321458', N'234 Đường KLM, Cao Bằng', 11000000, N'CB01');
+
+-- Cao Bằng - Warehouse CB02
+-- Randomly generate 5 to 15 employees for CB02
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('CB02_001', N'Nguyễn Thị Lan Anh', '1991-02-02', N'0123456789', N'123 Đường ABC, Cao Bằng', 10000000, N'CB02'),
+    ('CB02_002', N'Trần Văn Bảo', '1993-06-16', N'0987654321', N'456 Đường XYZ, Cao Bằng', 9500000, N'CB02'),
+    ('CB02_003', N'Lê Thị Cẩm', '1989-04-26', N'0369852147', N'789 Đường DEF, Cao Bằng', 10500000, N'CB02'),
+    ('CB02_004', N'Phạm Văn Đông', '1990-11-11', N'0586321479', N'101 Đường GHI, Cao Bằng', 9000000, N'CB02'),
+    ('CB02_005', N'Hoàng Thị Mai', '1988-08-15', N'0796321458', N'234 Đường KLM, Cao Bằng', 11000000, N'CB02');
+
+-- Cao Bằng - Warehouse CB03
+-- Randomly generate 5 to 15 employees for CB03
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('CB03_001', N'Nguyễn Văn Hải', '1990-01-01', N'0123456789', N'123 Đường ABC, Cao Bằng', 10000000, N'CB03'),
+    ('CB03_002', N'Trần Thị Ngọc', '1992-05-15', N'0987654321', N'456 Đường XYZ, Cao Bằng', 9500000, N'CB03'),
+    ('CB03_003', N'Lê Văn Minh', '1988-03-25', N'0369852147', N'789 Đường DEF, Cao Bằng', 10500000, N'CB03'),
+    ('CB03_004', N'Phạm Thị Hồng', '1989-12-10', N'0586321479', N'101 Đường GHI, Cao Bằng', 9000000, N'CB03'),
+    ('CB03_005', N'Hoàng Văn Tú', '1987-07-10', N'0796321458', N'234 Đường KLM, Cao Bằng', 11000000, N'CB03');
+
+-- Cao Bằng - Warehouse CB04
+-- Randomly generate 5 to 15 employees for CB04
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('CB04_001', N'Nguyễn Thị Hương', '1990-01-01', N'0123456789', N'123 Đường ABC, Cao Bằng', 10000000, N'CB04'),
+    ('CB04_002', N'Trần Văn Sơn', '1992-05-15', N'0987654321', N'456 Đường XYZ, Cao Bằng', 9500000, N'CB04'),
+    ('CB04_003', N'Lê Thị Lan', '1988-03-25', N'0369852147', N'789 Đường DEF, Cao Bằng', 10500000, N'CB04'),
+    ('CB04_004', N'Phạm Văn Hoàn', '1989-12-10', N'0586321479', N'101 Đường GHI, Cao Bằng', 9000000, N'CB04'),
+    ('CB04_005', N'Hoàng Thị Nga', '1987-07-10', N'0796321458', N'234 Đường KLM, Cao Bằng', 11000000, N'CB04');
+
+-- Cao Bằng - Warehouse CB05
+-- Randomly generate 5 to 15 employees for CB05
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('CB05_001', N'Nguyễn Văn Tuấn', '1990-01-01', N'0123456789', N'123 Đường ABC, Cao Bằng', 10000000, N'CB05'),
+    ('CB05_002', N'Trần Thị Thúy', '1992-05-15', N'0987654321', N'456 Đường XYZ, Cao Bằng', 9500000, N'CB05'),
+    ('CB05_003', N'Lê Văn Hoàng', '1988-03-25', N'0369852147', N'789 Đường DEF, Cao Bằng', 10500000, N'CB05'),
+    ('CB05_004', N'Phạm Thị Kim', '1989-12-10', N'0586321479', N'101 Đường GHI, Cao Bằng', 9000000, N'CB05'),
+    ('CB05_005', N'Hoàng Văn Dương', '1987-07-10', N'0796321458', N'234 Đường KLM, Cao Bằng', 11000000, N'CB05');
+
+
+
+	-- Hà Nội - Warehouse HN01
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('HN01_001', N'Nguyễn Văn An', '1990-01-01', N'0123456789', N'123 Đường ABC, Hà Nội', 10000000, N'HN01'),
+    ('HN01_002', N'Trần Thị Bình', '1992-05-15', N'0987654321', N'456 Đường XYZ, Hà Nội', 9500000, N'HN01'),
+    ('HN01_003', N'Lê Văn Cường', '1988-03-25', N'0369852147', N'789 Đường DEF, Hà Nội', 10500000, N'HN01'),
+    ('HN01_004', N'Phạm Thị Duyên', '1989-12-10', N'0586321479', N'101 Đường GHI, Hà Nội', 9000000, N'HN01'),
+    ('HN01_005', N'Hoàng Văn Đức', '1987-07-10', N'0796321458', N'234 Đường KLM, Hà Nội', 11000000, N'HN01');
+
+-- Hà Nội - Warehouse HN02
+-- Randomly generate 5 to 15 employees for HN02
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('HN02_001', N'Nguyễn Thị Lan Anh', '1991-02-02', N'0123456789', N'123 Đường ABC, Hà Nội', 10000000, N'HN02'),
+    ('HN02_002', N'Trần Văn Bảo', '1993-06-16', N'0987654321', N'456 Đường XYZ, Hà Nội', 9500000, N'HN02'),
+    ('HN02_003', N'Lê Thị Cẩm', '1989-04-26', N'0369852147', N'789 Đường DEF, Hà Nội', 10500000, N'HN02'),
+    ('HN02_004', N'Phạm Văn Đông', '1990-11-11', N'0586321479', N'101 Đường GHI, Hà Nội', 9000000, N'HN02'),
+    ('HN02_005', N'Hoàng Thị Mai', '1988-08-15', N'0796321458', N'234 Đường KLM, Hà Nội', 11000000, N'HN02');
+
+-- Hà Nội - Warehouse HN03
+-- Randomly generate 5 to 15 employees for HN03
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('HN03_001', N'Nguyễn Văn Hải', '1990-01-01', N'0123456789', N'123 Đường ABC, Hà Nội', 10000000, N'HN03'),
+    ('HN03_002', N'Trần Thị Ngọc', '1992-05-15', N'0987654321', N'456 Đường XYZ, Hà Nội', 9500000, N'HN03'),
+    ('HN03_003', N'Lê Văn Minh', '1988-03-25', N'0369852147', N'789 Đường DEF, Hà Nội', 10500000, N'HN03'),
+    ('HN03_004', N'Phạm Thị Hồng', '1989-12-10', N'0586321479', N'101 Đường GHI, Hà Nội', 9000000, N'HN03'),
+    ('HN03_005', N'Hoàng Văn Tú', '1987-07-10', N'0796321458', N'234 Đường KLM, Hà Nội', 11000000, N'HN03');
+
+-- Hà Nội - Warehouse HN04
+-- Randomly generate 5 to 15 employees for HN04
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('HN04_001', N'Nguyễn Thị Hương', '1990-01-01', N'0123456789', N'123 Đường ABC, Hà Nội', 10000000, N'HN04'),
+    ('HN04_002', N'Trần Văn Sơn', '1992-05-15', N'0987654321', N'456 Đường XYZ, Hà Nội', 9500000, N'HN04'),
+    ('HN04_003', N'Lê Thị Lan', '1988-03-25', N'0369852147', N'789 Đường DEF, Hà Nội', 10500000, N'HN04'),
+    ('HN04_004', N'Phạm Văn Hoàn', '1989-12-10', N'0586321479', N'101 Đường GHI, Hà Nội', 9000000, N'HN04'),
+    ('HN04_005', N'Hoàng Thị Nga', '1987-07-10', N'0796321458', N'234 Đường KLM, Hà Nội', 11000000, N'HN04');
+
+-- Hà Nội - Warehouse HN05
+-- Randomly generate 5 to 15 employees for HN05
+INSERT INTO employee (ID, employee_name, date_of_birth, phone_number, address, salary, warehouse_id)
+VALUES 
+    ('HN05_001', N'Nguyễn Văn Tuấn', '1990-01-01', N'0123456789', N'123 Đường ABC, Hà Nội', 10000000, N'HN05'),
+    ('HN05_002', N'Trần Thị Thúy', '1992-05-15', N'0987654321', N'456 Đường XYZ, Hà Nội', 9500000, N'HN05'),
+    ('HN05_003', N'Lê Văn Hoàng', '1988-03-25', N'0369852147', N'789 Đường DEF, Hà Nội', 10500000, N'HN05'),
+    ('HN05_004', N'Phạm Thị Kim', '1989-12-10', N'0586321479', N'101 Đường GHI, Hà Nội', 9000000, N'HN05'),
+    ('HN05_005', N'Hoàng Văn Dương', '1987-07-10', N'0796321458', N'234 Đường KLM, Hà Nội', 11000000, N'HN05');
+
+
