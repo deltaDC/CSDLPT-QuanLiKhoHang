@@ -1,0 +1,28 @@
+USE [QuanLiKhoHang]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TRIGGER [dbo].[update_customer]
+ON [dbo].[customer]
+AFTER INSERT,UPDATE
+AS
+BEGIN
+    -- Lấy ID từ bảng inserted
+    DECLARE @ID NVARCHAR(50)
+    SET @ID = (SELECT TOP 1 ID FROM inserted)  -- Giả sử một hàng chèn
+
+    -- Kiểm tra ID có dạng 'HN%C%' không
+    IF @ID LIKE 'HN%C%'
+    BEGIN
+        PRINT 'Cập nhật dữ liệu thành công.'
+    END
+    ELSE
+    BEGIN
+        -- Nếu không, hủy giao dịch và đưa ra thông báo lỗi
+		PRINT 'Cập nhật thông tin thất bại.'
+        RAISERROR ('ID không hợp lệ.', 16, 1)
+        ROLLBACK TRANSACTION
+    END
+END
