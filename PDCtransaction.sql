@@ -1,5 +1,4 @@
-﻿/*
--- tang gia product duoc order nhieu nhat
+﻿-- tang gia product duoc order nhieu nhat
 BEGIN TRANSACTION
 
 BEGIN TRY
@@ -26,9 +25,7 @@ BEGIN CATCH
 	ROLLBACK
 	PRINT 'Co loi xay ra ' + ERROR_MESSAGE()
 END CATCH
-*/
 
-/*
 -- giam gia product duoc order it nhat
 BEGIN TRANSACTION
 
@@ -55,8 +52,8 @@ BEGIN CATCH
 	ROLLBACK
 	PRINT 'co loi xay ra ' + ERROR_MESSAGE()
 END CATCH
-*/
-/*
+
+
 -- tang luong cho nhan vien co nhieu order nhat
 BEGIN TRANSACTION
 
@@ -84,9 +81,8 @@ BEGIN CATCH
 	ROLLBACK
 	PRINT 'co loi xay ra: ' + ERROR_MESSAGE()
 END CATCH
-*/
 
-/*
+
 -- liet ke customer co nhieu order nhat
 BEGIN TRANSACTION
 
@@ -103,9 +99,9 @@ BEGIN CATCH
 	ROLLBACK
 	PRINT 'co loi xay ra'
 END CATCH
-*/
 
-/*
+
+
 -- xoa order da duoc giao
 BEGIN TRANSACTION
 
@@ -130,10 +126,10 @@ BEGIN CATCH
 	PRINT 'transaction da duoc rollback'
     PRINT 'Co loi xay ra: ' + ERROR_MESSAGE();
 END CATCH;  
-*/
 
 
- /*
+
+
 BEGIN TRANSACTION
 
 BEGIN TRY  
@@ -154,7 +150,6 @@ BEGIN CATCH
     ROLLBACK
     PRINT 'Co loi xay ra: ' + ERROR_MESSAGE();
 END CATCH;  
-*/
 
    
 -- tạo một order mới của một employee đã tồn tại, với tên khách hàng mới và sản phẩm mới (insert vào customer và product)	
@@ -184,10 +179,4 @@ BEGIN CATCH
     ROLLBACK
     PRINT 'Co loi xay ra: ' + ERROR_MESSAGE();
 END CATCH;  
-
-select * from customer;
-select * from employee;
-select * from orders;
-select * from product;
-select * from order_product;
 
